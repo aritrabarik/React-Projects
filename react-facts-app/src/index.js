@@ -2,20 +2,24 @@ import React from "react"
 import ReactDOM from "react-dom"
 import logo from "./react-logo.png"
 
-function CustomPage() {
+function Page() {
     return (
         <div>
-            <img src={logo} alt="React-Logo" width={"60px"}></img>
-            <h1>Fun Facts about React</h1>
-            <ul>
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100K stars on GitHub</li>
-                <li>Is maintained by Meta aka Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
+            <header>
+                <nav>
+                    <img src={logo} alt="React-Logo" width="40px"/>
+                </nav>
+            </header>
+            <h1>Reasons I'm excited to learn React</h1>
+            <ol>
+                <li>It's a popular library, so I'll be able to fit in with the cool kids!</li>
+                <li>I'm more likely to get a job as a developer if I know React</li>
+            </ol>
+            <footer>
+                <small>© 2022 iGN1T0R development. All rights reserved.</small>
+            </footer>
         </div>
     )
 }
 
-ReactDOM.render(<CustomPage />, document.getElementById("root"))
+ReactDOM.render(<Page />, document.getElementById("root"))
