@@ -7,7 +7,6 @@ export default function NavBar() {
             <nav>
                 <img src={ReactIconSmall} alt="React-Logo"></img>
                 <h3>ReactFacts</h3>
-                <h4>React Course - Project1</h4>
             </nav>
         </div>
     )
