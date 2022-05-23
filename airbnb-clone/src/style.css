@@ -19,6 +19,10 @@ body {
     font-weight: bold;
 }
 
+.nav--logo {
+    max-width: 100px;
+}
+
 nav {
     display: flex;
     height: 70px;
@@ -67,6 +71,7 @@ section {
 .card--image {
     width: 100px;
     border-radius: 9px;
+    margin-bottom: 9px;
 }
 
 .card--title {
